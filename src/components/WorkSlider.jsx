@@ -23,7 +23,7 @@ const WorksSlider = () => {
           <ul>
             <li><strong>Goal:</strong> Make cultural events accessible.</li>
             <li><strong>Features:</strong> Booking, organizer dashboard, secure browsing.</li>
-            <li><strong>Tech:</strong> MySQL backend.</li>
+            <li><strong>🔧 Technologies used:</strong> Java , MySQL, node.js</li>
             <li><strong>Code:</strong> <a href="https://github.com/ameni1300/SpectaclePlus" target="_blank" rel="noopener noreferrer">GitHub</a></li>
           </ul>
         </div>
@@ -50,7 +50,18 @@ const WorksSlider = () => {
       title: "",
       type: "Website",
       imageUrl: image11,
-      description: <p>Description of portfolio website...</p>
+      description:(
+        <div className="popup-content">
+          <h3>📊 EvalTrack – Modern Academic Grade Management Platform</h3>
+          <p>EvalTrack is a modern web platform designed to streamline university grade management. It simplifies access to results, automates average calculations, tracks corrected exams, and provides a digital system for handling grade-related claims.
+
+With an intuitive interface, advanced features, and a user-centered approach, EvalTrack enhances the academic experience for students while reducing administrative workload.</p>
+          <ul>
+            <li><strong>🔧 Technologies used:</strong>Spring Boot, Angular, MySQL</li>
+            <li><strong>Code:</strong> <a href="https://github.com/ameni1300/EvalTrack" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      )
     },
   ];
 
