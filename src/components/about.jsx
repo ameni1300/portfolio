@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './About.css';
+import './about.css';
 import profileImage from '../assets/image4.png';
 import cvFile from '../assets/CV.pdf';
 
