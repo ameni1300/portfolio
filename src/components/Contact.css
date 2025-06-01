@@ -1,0 +1,140 @@
+.contact-section {
+ position: relative;
+  margin: 0 200px; /* Réduit la marge latérale */
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 1rem 1rem;
+  background: #39396d;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  font-size: large;
+  z-index: 1;
+}
+
+.contact-decoration {
+  position: absolute;
+  z-index: 2;
+  width: 280px; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.contact-decoration.left {
+    top:380px;
+  left: -180px; /* Position à gauche du conteneur */
+}
+
+.contact-decoration.right {
+    top:310px;
+  right: -180px; /* Position à droite du conteneur */
+}
+
+.contact-intro {
+  max-width: 700px;
+  margin: 1.5rem auto 3rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #4e54c8;
+}
+
+.contact-item a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-item a:hover {
+  color: #4e54c8;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4e54c8;
+}
+
+.submit-btn {
+  background: #4e54c8;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #4348a8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-item {
+    width: 100%;
+    justify-content: center;
+  }
+}

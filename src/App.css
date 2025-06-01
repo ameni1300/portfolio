@@ -1,0 +1,10 @@
+.App {
+  background-color: #11123F;
+  color: var(--text-color);
+  min-height: 100vh;
+  width: 100%; /* 🔁 Rend la largeur fluide, selon la taille de l'écran */
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden; /* 🔒 Évite le scroll horizontal */
+  padding: 0;
+  margin: 0;
+}

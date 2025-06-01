@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-primary);
+    padding: 20px 60px;
+  }
+  
+  .navbar-left .orb-logo {
+    width: 250px;
+    margin-left: -75px;
+    height: auto;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 80px;
+    margin-right: 70px;
+    margin-top: -150px;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar-right li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-style:oblique;
+    color: var(--nav-inactive);
+    transition: color 0.3s;
+  }
+  
+  .navbar-right li a:hover,
+  .navbar-right li a.active {
+    color: var(--nav-active);
+  }
+  
+  .logo-icon {
+    width: 60px;
+    height: 60px;
+    filter: brightness(1.2);
+  }
+  
+  .icon-item {
+    display: flex;
+    align-items: center;
+  }
+  
